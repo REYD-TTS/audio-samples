@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>REYD Audio Samples</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0% 15%;
+      padding: 50px 30px;
+      background: #fff;
+      color: #111;
+      font-size: 17px;
+      font-family: 'Noto Sans Hebrew', sans-serif;
+      font-weight: 400;
+      line-height: 1.8;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1 {
+      font-size: 1.75em;
+    }
+
+    h2 {
+      margin-bottom: 0.4em;
+    }
+
+    hr {
+      height: 0.5px;
+      border-width: 0;
+      color: lightgray;
+      background-color: lightgray
+    }
+
+    table {
+      width: 100%;
+    }
+
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Reading Electronic Yiddish Documents (REYD) Audio Samples</h1>
+  <h2>Yiddish Multi-Speaker TTS</h2>
+  <p>
+    <b>Dataset</b>: <a href="https://github.com/REYD-TTS">REYD</a><br>
+    <b>TTS system</b>: <a href="https://github.com/ming024/FastSpeech2">FastSpeech2</a><br>
+    <b>Model checkpoint</b>: <a
+      href="https://figshare.com/articles/software/REYD_demo_files/19350539?file=34363709">link</a><br>
+    <b>Config</b>: <a href="https://figshare.com/articles/software/REYD_demo_files/19350539?file=34363712">yivo_respelled</a><br>
+    <b>Vocoder</b>: <a href="https://github.com/jik876/hifi-gan">HiFi-GAN (universal)</a>
+  </p>
+
+  <hr>
+  
+  <table>
+    <tr>
+      <th style="text-align: center">lit1/vz2205 (Ground-Truth) </th>
+      <th style="text-align: center">lit1/vz2205 (Synthesized) </th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz2205.wav" autoplay />
+        </audio></td>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz2205_syn.wav" autoplay />
+        </audio></td>
+    </tr>
+  </table>
+  <p dir="rtl"><b>טעקסט:</b> איך האָב אָבער באַלד דערקענט, הערט איר, אַז איר דאַרפֿט זײַן אַ ייִד פֿון האָלץ, גאָט זאָל מיר אַזױ באַגליקן אױף דער עלטער!</p>
+
+  <hr>
+
+  <table>
+    <tr>
+      <th style="text-align: center">lit1/vz1890 (Ground-Truth) </th>
+      <th style="text-align: center">lit1/vz1890 (Synthesized) </th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz1890.wav" autoplay />
+        </audio></td>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz1890_syn.wav" autoplay />
+        </audio></td>
+    </tr>
+  </table>
+  <p dir="rtl"><b>טעקסט:</b> גיב אַ קוק, װי עס ליגט פֿאַר דיר אָן אַ סימן פֿון לעבן.</p>
+
+  <hr>
+  
+  <table>
+    <tr>
+      <th style="text-align: center">lit1/vz2224 (Ground-Truth) </th>
+      <th style="text-align: center">lit1/vz2224 (Synthesized) </th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz2224.wav" autoplay />
+        </audio></td>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz2224_syn.wav" autoplay />
+        </audio></td>
+    </tr>
+  </table>
+  <p dir="rtl"><b>טעקסט:</b> אומזיסט זײַנען נעבעך געװען דער מאַמעס טרערן.</p>
+
+  <hr>
+  
+  <table>
+    <tr>
+      <th style="text-align: center">lit2/vz2916 (Ground-Truth) </th>
+      <th style="text-align: center">lit2/vz2916 (Synthesized) </th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz2916.wav" autoplay />
+        </audio></td>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz2916_syn.wav" autoplay />
+        </audio></td>
+    </tr>
+  </table>
+  <p dir="rtl"><b>טעקסט:</b> אַלע ייִנגלעך שטעלן זיך אױס אַרום מיר און זײַנען מיר מקנא.</p>
+
+  <hr>
+  
+  <table>
+    <tr>
+      <th style="text-align: center">lit2/vz2777 (Ground-Truth) </th>
+      <th style="text-align: center">lit2/vz2777 (Synthesized) </th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz2777.wav" autoplay />
+        </audio></td>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz2777_syn.wav" autoplay />
+        </audio></td>
+    </tr>
+  </table>
+  <p dir="rtl"><b>טעקסט:</b> און װאָס זאָגט הערש־בער דער חזן אױף מײַן שטים?</p>
+
+  <hr>
+  
+  <table>
+    <tr>
+      <th style="text-align: center">lit2/vz2896 (Ground-Truth) </th>
+      <th style="text-align: center">lit2/vz2896 (Synthesized) </th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz2896.wav" autoplay />
+        </audio></td>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz2896_syn.wav" autoplay />
+        </audio></td>
+    </tr>
+  </table>
+  <p dir="rtl"><b>טעקסט:</b> אַזױ זאָג איך צו מײַן ברודער עליע און כאַפּ פֿון אים אַ געשמאַקן פּאַטש מיט דער לינקער האַנט אין דער רעכטער באַק אַרײַן.</p>
+
+  <hr>
+  <table>
+    <tr>
+      <th style="text-align: center">pol1/vz0745 (Ground-Truth) </th>
+      <th style="text-align: center">pol1/vz0745 (Synthesized) </th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz0745.wav" autoplay />
+        </audio></td>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz0745_syn.wav" autoplay />
+        </audio></td>
+    </tr>
+  </table>
+  <p dir="rtl"><b>טעקסט:</b>  - האָט צום הױכן ייִד געזאָגט אײנער אַ קצבֿ, װאָס האָט אַ מאָל געלערנט מיט אים אין אײן חדר.</p>
+
+  <hr>
+  
+  <table>
+    <tr>
+      <th style="text-align: center">pol1/vz0432 (Ground-Truth) </th>
+      <th style="text-align: center">pol1/vz0432 (Synthesized) </th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz0432.wav" autoplay />
+        </audio></td>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz0432_syn.wav" autoplay />
+        </audio></td>
+    </tr>
+  </table>
+  <p dir="rtl"><b>טעקסט:</b> פּלוצלינג װען עס איז אַזױ שטיל און מע שטײט שמונה־עשׂרה און אַלץ אַרום שטײט שמונה־עשׂרה, דערהערט זיך פֿון דרױסן אַ גאָס, װי אַ ים װאָלט אונטערגעגאַנגען אין אַ ים...</p>
+
+  <hr>
+  
+  <table>
+    <tr>
+      <th style="text-align: center">pol1/vz1002 (Ground-Truth) </th>
+      <th style="text-align: center">pol1/vz1002 (Synthesized) </th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz1002.wav" autoplay />
+        </audio></td>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/vz1002_syn.wav" autoplay />
+        </audio></td>
+    </tr>
+  </table>
+  <p dir="rtl"><b>טעקסט:</b> קײנער האָט נישט געװאַגט צו לאַכן.</p>
+
+  <hr>
+      
+  <table>
+    <tr>
+      <th style="text-align: center">Longer Text</th>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio controls="controls">
+          <source src="./demo/yivo_respelled/shprakh_dialekt.wav" autoplay />
+        </audio></td>
+    </tr>
+  </table>
+  <p>Speaker code: <b>lit1</b>. No ground-truth recording is available for comparison.
+  </p>
+  <p>
+    Text by Max Weinreich (1894-1969), stating the aphorism that "a language is a dialect with an army and navy" (see <a href="https://en.wikipedia.org/wiki/A_language_is_a_dialect_with_an_army_and_navy#Weinreich">English translation</a>).
+  </p>
+  <p dir="rtl"><b>טעקסט:</b> 
+    פֿאַר אַ יאָרן האָבן מיר אין דער דאָקטאָר צמח שאַבאַד־אַספּיראַנטור געהאַט אַ קורס פֿון צוואַנציק לעקציעס אויף דער טעמע׃ פּראָבלעמען אין דער געשיכטע פֿון דער ייִדישער שפּראַך. צווישן די צוהערערס איז איין מאָל אױך אַרײַנגעפֿאַלן אַ לערער פֿון אַ בראָנקסער הײַסקול. ער איז געקומען קײן אַמעריקע ווי אַ קינד און האָט פֿאַר דער גאַנצער צײַט קײן מאָל ניט געהערט, אַז ייִדיש האָט אַ געשיכטע און קען דינען פֿאַר העכערע ענינים אויך. ווי אַזוי ער איז פֿון דער אַספּיראַנטור פֿון ייִוואָ געווויר געוואָרן ווייס איך ניט, נאָר פֿון יעמאָלט אָן האָט ער שוין גענומען קומען. איין מאָל נאָך אַ לעקציע גייט ער צו צו מיר און פֿרעגט׃ „וואָס איז דער חילוק פֿון אַ דיאַלעקט ביז אַ שפּראַך?“ איך האָב געמיינט, אַז עס רופֿט זיך אים דער משׂכּילישער ביטול, און איך האָב אים געפּרוּווט אַרויפֿפֿירן אויפֿן ריכטיקן וועג, נאָר ער האָט מיך איבערגעריסן׃ „דאָס ווייס איך, אָבער איך וועל אײַך געבן אַ בעסערע דעפֿיניציע׃ <b>אַ שפּראַך איז אַ דיאַלעקט מיט אַן אַרמיי און פֿלאָט</b>“. איך האָב זיך יעמאָלט באַלד פֿאַרגעדענקט, אַז די דאָזיקע וווּנדערלעכע פֿאָרמולירונג פֿון דער סאָציאַלער מערכה פֿון ייִדיש מוז איך ברענגען צו אַ גרויסן עולם.
+  </p>
+
+</body>
+
+</html>
